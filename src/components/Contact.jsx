@@ -16,7 +16,7 @@ const Contact = () => {
   });
 
   const [loading, setLoading] = useState(false);
-  console.log(`${process.env.REACT_APP_pubic_key}`)
+  // console.log(`${process.env.REACT_APP_pubic_key}`)
 
   const handleChange = (e) => {
     const { target } = e;
